@@ -18,7 +18,7 @@ def setup_driver():
     options = OperaOptions()
     options.binary_location = r'A:\opera.exe'
     driver = webdriver.Opera(
-        executable_path=r'C:\Users\barte\PycharmProjects\selenium_kurs\test_coinsbase\driver\operadriver.exe',
+        executable_path=r'driver\operadriver.exe',
         options=options
     )
     yield driver
